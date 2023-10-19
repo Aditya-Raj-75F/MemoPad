@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MemoPad</string>
+    <string name="app_heading">Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="update_note">Edit Note</string>
+    <string name="note_title">Title</string>
+    <string name="note_contents">Content</string>
+    <string name="note_title_hint">Enter the Title</string>
+    <string name="note_content">Enter the Description</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:textAlignment="center"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/updateNoteHeading"
+        android:layout_width="201dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="194dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/update_note"
+        android:textColor="@color/orange"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/updateButton"
+        android:layout_width="46dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="47dp"
+        android:src="@drawable/baseline_done_24"
+        app:srcCompat="@drawable/baseline_done_24" />
+
+    <EditText
+        android:id="@+id/updateTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/updateNoteHeading"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orange_border"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/updateContentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/updateTitleEditText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/orange_border"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="18dp"
+        android:hint="@string/note_content" />
+
+</RelativeLayout>
